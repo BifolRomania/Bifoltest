@@ -1,4 +1,4 @@
-/* Anti Nefori Nefori Club - Custom Streetwear Styling */
+/* Anti Nefori Nefori Club - Custom Streetwear Styling - Romanian */
 
 /* Typography Enhancements */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -317,4 +317,32 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .color-scheme-3 .btn:hover,
 .color-scheme-4 .btn:hover {
   border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Romanian Language Optimizations */
+html[lang="ro"] {
+  /* Ensure proper Romanian character display */
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* Romanian text specific adjustments */
+html[lang="ro"] .slideshow__text-wrapper h2,
+html[lang="ro"] .collection-hero__title,
+html[lang="ro"] .product__title {
+  /* Better spacing for Romanian diacritics */
+  line-height: 1.1;
+}
+
+/* Romanian button text optimization */
+html[lang="ro"] .btn,
+html[lang="ro"] .button {
+  /* Slightly larger padding for Romanian text */
+  padding: 14px 28px;
+}
+
+@media screen and (max-width: 749px) {
+  html[lang="ro"] .btn,
+  html[lang="ro"] .button {
+    padding: 12px 24px;
+  }
 }

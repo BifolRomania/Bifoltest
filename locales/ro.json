@@ -28,7 +28,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continuați cumpărăturile",
+    "continue_shopping": "CONTINUĂ SHOPPING-UL",
     "pagination": {
       "label": "Paginare",
       "page": "Pagina {{ number }}",
@@ -60,7 +60,7 @@
   "newsletter": {
     "label": "E-mail",
     "success": "Vă mulțumim că v-ați abonat",
-    "button_label": "Abonați-vă"
+    "button_label": "ABONEAZĂ-TE"
   },
   "accessibility": {
     "skip_to_text": "Salt la conținut",
@@ -107,12 +107,12 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Adăugați în coș",
+      "add_to_cart": "ADAUGĂ ÎN COȘ",
       "description": "Descriere",
-      "on_sale": "Vânzare",
+      "on_sale": "REDUCERE",
       "product_variants": "Variante de produse",
       "share": "Distribuiți acest produs",
-      "sold_out": "Stoc epuizat",
+      "sold_out": "SOLD OUT",
       "unavailable": "Indisponibil",
       "vendor": "Vânzător",
       "video_exit_message": "{{ title }} deschide videoclipul în ecran complet în aceeași fereastră.",
@@ -290,7 +290,7 @@
       "caption": "Articole din coș",
       "remove_title": "Eliminați {{ title }}",
       "note": "Instrucțiuni speciale legate de comandă",
-      "checkout": "Finalizați comanda",
+      "checkout": "CHECKOUT",
       "empty": "Coșul dvs. este gol",
       "cart_error": "A apărut o eroare în timpul actualizării coșului. Încercați din nou.",
       "cart_quantity_error_html": "Cantitatea maximă pe care o poți adăuga în coș din acest articol: {{ quantity }}.",
@@ -321,16 +321,16 @@
       "payment": "Metode de plată"
     },
     "featured_blog": {
-      "view_all": "Afișați tot",
+      "view_all": "VEZI TOT",
       "onboarding_title": "Postare pe blog",
       "onboarding_content": "Oferiți-le clienților un rezumat al postării de pe blog"
     },
     "featured_collection": {
-      "view_all": "Afișați tot",
+      "view_all": "VEZI TOT",
       "view_all_label": "Afișați toate produsele din colecția {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Afișați tot"
+      "view_all": "VEZI TOT"
     },
     "collection_template": {
       "title": "Colecție",

@@ -8,8 +8,8 @@
           "settings": {
             "heading": "ANTI NEFORI NEFORI CLUB",
             "heading_size": "h0",
-            "subheading": "LIMITED DROPS. EXCLUSIVE DESIGNS.",
-            "button_label": "SHOP NOW",
+            "subheading": "EDIȚII LIMITATE. DESIGN-URI EXCLUSIVE.",
+            "button_label": "CUMPĂRĂ ACUM",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -37,7 +37,7 @@
     "featured-products": {
       "type": "featured-collection",
       "settings": {
-        "title": "LATEST DROPS",
+        "title": "ULTIMELE LANSĂRI",
         "heading_size": "h1",
         "show_description": false,
         "description_style": "body",
@@ -68,28 +68,28 @@
           "type": "featured_collection",
           "settings": {
             "collection": "hoodies",
-            "title": "HOODIES"
+            "title": "HANORACE"
           }
         },
         "collection-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "tees",
-            "title": "T-SHIRTS"
+            "title": "TRICOURI"
           }
         },
         "collection-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessories",
-            "title": "ACCESSORIES"
+            "title": "ACCESORII"
           }
         },
         "collection-3": {
           "type": "featured_collection",
           "settings": {
             "collection": "limited-edition",
-            "title": "LIMITED"
+            "title": "EDIȚIE LIMITATĂ"
           }
         }
       },
@@ -100,7 +100,7 @@
         "collection-3"
       ],
       "settings": {
-        "title": "SHOP BY CATEGORY",
+        "title": "CUMPĂRĂ PE CATEGORII",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -115,10 +115,10 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
-        "heading": "JOIN THE UNDERGROUND",
+        "heading": "ALĂTURĂ-TE UNDERGROUND-ULUI",
         "heading_size": "h1",
-        "text": "<p>Get exclusive access to limited drops and special releases. Sign up for early access.</p>",
-        "button_label": "JOIN NOW",
+        "text": "<p>Obține acces exclusiv la ediții limitate și lansări speciale. Înscrie-te pentru acces anticipat.</p>",
+        "button_label": "ALĂTURĂ-TE ACUM",
         "button_link": "",
         "image_overlay_opacity": 60,
         "image_height": "medium",

@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE WORLDWIDE SHIPPING ON ORDERS OVER $150",
+            "text": "TRANSPORT GRATUIT MONDIAL PENTRU COMENZI PESTE $150",
             "link": "shopify://collections/all",
             "color_scheme": "scheme-4"
           }
