@@ -1,0 +1,320 @@
+/* Anti Nefori Nefori Club - Custom Streetwear Styling */
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Hero Section Styling */
+.slideshow__text-wrapper h2 {
+  font-size: clamp(2rem, 8vw, 6rem);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.slideshow__text-wrapper .slideshow__subheading {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+}
+
+/* Button Styling - Streetwear Aesthetic */
+.btn, .button, .shopify-payment-button__button {
+  font-weight: 700 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  padding: 12px 24px;
+}
+
+.btn:hover, .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Card Enhancements */
+.card__heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+/* Collection Titles */
+.collection-list-wrapper .card__heading,
+.featured-collection .collection__title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* Navigation Enhancements */
+.header__heading-link,
+.list-menu__item {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Footer Styling */
+.footer-block__heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+/* Newsletter Section */
+.newsletter-form__field-wrapper {
+  border: 2px solid rgba(var(--color-foreground), 0.2);
+  border-radius: 0;
+}
+
+.newsletter-form__button {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Image Overlays */
+.banner__content {
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Mobile Optimizations */
+@media screen and (max-width: 749px) {
+  .slideshow__text-wrapper h2 {
+    font-size: clamp(1.5rem, 8vw, 3rem);
+  }
+  
+  .collection-list-wrapper .card__heading {
+    font-size: 1.2rem;
+  }
+  
+  .btn, .button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Hover Effects */
+.card-wrapper:hover .card__media img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card__media {
+  overflow: hidden;
+}
+
+/* Loading States */
+.card__media img {
+  transition: transform 0.3s ease;
+}
+
+/* Custom Badge Styling */
+.badge {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+}
+
+/* Search and Filter Enhancements */
+.facets__form {
+  border: 1px solid rgba(var(--color-foreground), 0.1);
+}
+
+.facets__heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Cart Styling */
+.cart-notification-product__name,
+.cart-item__name {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Product Page Enhancements */
+.product__title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.product__text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.product-form__buttons {
+  margin-top: 2rem;
+}
+
+.product-form__cart-submit {
+  width: 100%;
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.product-form__cart-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Variant Picker Styling */
+.product-form__input input[type="radio"] + label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 2px solid rgba(var(--color-foreground), 0.2);
+  transition: all 0.2s ease;
+}
+
+.product-form__input input[type="radio"]:checked + label {
+  border-color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+}
+
+/* Size Guide and Product Info */
+.product__info-wrapper {
+  padding: 1rem 0;
+}
+
+.product__info-container {
+  border-top: 1px solid rgba(var(--color-foreground), 0.1);
+  padding-top: 1rem;
+}
+
+/* Collection Page Styling */
+.collection-hero__title {
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.collection-hero__description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+/* Filter and Sort Styling */
+.facets-container {
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+  margin-bottom: 2rem;
+}
+
+.facets__summary {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Grid Enhancements */
+.collection .grid {
+  gap: 2rem;
+}
+
+/* Breadcrumb Styling */
+.breadcrumb {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Pagination Styling */
+.pagination-wrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.pagination__item {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Social Sharing */
+.share-button {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Quick Add Button */
+.quick-add-modal__content-info .btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 989px) {
+  .product__title {
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
+  
+  .product-form__cart-submit {
+    padding: 14px 24px;
+    font-size: 1rem;
+  }
+  
+  .collection-hero__title {
+    font-size: clamp(1.5rem, 8vw, 3rem);
+  }
+}
+
+/* Dark Mode Enhancements */
+.color-scheme-3,
+.color-scheme-4 {
+  --shadow-opacity: 0.3;
+}
+
+.color-scheme-3 .btn,
+.color-scheme-4 .btn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.color-scheme-3 .btn:hover,
+.color-scheme-4 .btn:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}

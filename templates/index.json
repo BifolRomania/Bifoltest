@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "hero-slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "ANTI NEFORI NEFORI CLUB",
+            "heading_size": "h0",
+            "subheading": "LIMITED DROPS. EXCLUSIVE DESIGNS.",
+            "button_label": "SHOP NOW",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false
+      }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "LATEST DROPS",
+        "heading_size": "h1",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hoodies",
+            "title": "HOODIES"
+          }
+        },
+        "collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tees",
+            "title": "T-SHIRTS"
+          }
+        },
+        "collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "ACCESSORIES"
+          }
+        },
+        "collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "limited-edition",
+            "title": "LIMITED"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "settings": {
+        "heading": "JOIN THE UNDERGROUND",
+        "heading_size": "h1",
+        "text": "<p>Get exclusive access to limited drops and special releases. Sign up for early access.</p>",
+        "button_label": "JOIN NOW",
+        "button_link": "",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "hero-slideshow",
+    "featured-products",
+    "collection-list",
+    "image-banner",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_enable": true,
+        "newsletter_heading": "JOIN THE UNDERGROUND",
+        "newsletter_text": "Get exclusive access to limited drops and special releases.",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 48,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
